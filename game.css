@@ -1,0 +1,87 @@
+body
+{
+	background:pink;
+	background-image: url("2202085.gif");
+}
+#menu
+{
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    z-index: 10;
+	background-color: blue;
+}
+.ul
+{
+	list-style: none;
+}
+.ul
+{
+	background-color: pink;
+}
+
+#image
+{
+	height: 100px;
+	width: 100px;
+}
+.rules
+{
+	color: red;
+	
+}
+
+
+#div
+{
+	width: 50%;
+	font-weight: bold;
+	border-color: red;
+	border-width: 5px;
+	border-style: solid;
+	padding: 5px;
+}
+	
+h1{
+	
+	font-weight: bold;
+	text-shadow: 2px 2px #db6596;
+	
+}
+
+	.login_div1 , .login_div2
+	{
+		margin-top: 20px;
+		background:lightblue;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#number1
+{
+	width: 60%;
+}
+#number2
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}

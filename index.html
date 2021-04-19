@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Math Quiz Game!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+	
+	<div class="div"> 
+		<ul class="nav navbar-nav" id="menu">
+			<li><img id="image"src="calculator-512.webp"></li>
+			  </ul>
+		</div>	
+	<center>
+		<br>
+		<h4 id="name">WELCOME TO</h4>
+		<h1>The Math Quiz Game!</h1>
+		
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+<h3>Player 1 Login For the Game</h3>
+
+<input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 username">
+<br>
+<h3>Player 2 Login For the Game</h3>
+	
+	<input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 username">
+	<br>
+</div>
+<br>
+<br>
+	<button onclick="addUser()" style="width: 30%;" class="btn btn-info">Login <i class="glyphicon glyphicon-chevron-right"></i></button>
+	<br>
+	<br>
+	<br>
+	
+<h3 class="rules" style="font-weight: bold;">How to Play:</h3>
+<div id="div" class="rules">First, begin by loging in. Once you have logged in, you are all set to play! Either you or your partner will begin asking a question, and the other will answer the question. If you are asking a question, type any two numbers. Then ask your partner to multiply it. If your partner gets the right answer, they get a point. Continue playing the game to see who wins! </div>
+</center>
+
+</body>
+</html>
